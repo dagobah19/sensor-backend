@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "REST API for sensor data ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dagobah19/sensor-backend.git"
+  },
+  "author": "knowgenie.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dagobah19/sensor-backend/issues"
+  },
+  "homepage": "https://github.com/dagobah19/sensor-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
